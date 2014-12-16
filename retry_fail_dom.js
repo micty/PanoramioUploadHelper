@@ -17,7 +17,10 @@ $('.upload_failed').each(function (index) {
 });
 
 
-//定时重试
+
+/**
+* 定时重试。
+*/
 var retry_interval_id = (function () {
 
     function retry() {
@@ -42,5 +45,5 @@ var retry_interval_id = (function () {
 
 })();
 
-
+//清空之前的定时器
 clearInterval(retry_interval_id);
