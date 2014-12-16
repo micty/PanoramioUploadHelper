@@ -1,4 +1,0 @@
-PanoramioUploadHelper
-=====================
-
-Panoramio Upload Helper
